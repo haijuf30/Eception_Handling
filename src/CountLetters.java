@@ -8,7 +8,7 @@ public class CountLetters {
         System.out.print("Masukkan Frasa: ");
         String word = scan.nextLine();
 
-        word = word.toUpperCase();
+        word = word.toUpperCase();   
 
         for (int i = 0; i < word.length(); i++) {
             try {
